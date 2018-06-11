@@ -1,0 +1,82 @@
+form{
+  max-width: 375px;
+  padding: 70px 50px;
+  margin: 125px auto 0;
+  background: #f7f7f7;
+  margin-bottom: 100px;
+}
+
+.form-signin .btn-group-lg>.btn, .btn-lg, .form-signup .btn-group-lg>.btn, .btn-lg, .login .btn-login, .registerBox .btn-register {
+    padding: 5px 16px;
+    margin-left: 80px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 3px;
+    background-color: brown;
+    border-color: #c0392b;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.form-signin .btn-primary:hover, .login .btn-login:hover, .registerBox .btn-register:hover {
+    color: #fff;
+    background-color: #34495e;
+    border-color: #34495e;
+}
+.form-signin .form-signin-heading{
+  text-align: center;
+}
+
+.form-signin .form-control, .login .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 75px;
+}
+.form-signin .form-control:focus, .login .form-control:focus {
+  z-index: 2;
+  border-color: #34495E;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(52, 73, 94,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(52, 73, 94,.6);
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#r1{
+  margin-left: 100px;
+}
+#signs h1{
+  text-align: center;
+}
+#signs input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1400px 1000px;
+  object-fit: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8)) )
+}

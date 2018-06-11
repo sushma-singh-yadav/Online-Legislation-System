@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<div class="box">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link rel="stylesheet" type="text/css" href="css/signin.css">
+<link rel="stylesheet" type="text/css" href="css/button.css">
+<link rel="stylesheet" type="text/css" href="css/dashboard.css">
+
+</div>
+
+
+
+<div class="topnav">
+<ul>
+  <a href="CasePost.html">Case Post</a>
+  <a href="lawsearch.php">Law Search</a>
+  <a href="lawyersearch.php">Lawyer search</a>
+   <a href="casesearch.php">Case search</a>
+</ul>
+</div>
+
+<body background="6.jpg">
+<div id="main">
+<div id="right">
+<form action="casepost.php" method="post">
+     <div id="signs">
+        <h2>Case details</h2>
+
+        <label >Your Name</label> <br>
+        <input type="text" name ="citizenname"  placeholder="Name" required autofocus> <br>
+
+        <label >Case Name</label> <br>
+        <input type="text" name ="case_name"  placeholder="Name" required autofocus> <br>
+
+        <label >Case type</label> <br>
+        <input type="text" name ="case_type"  placeholder="Case type" required autofocus> <br>
+
+        <label >Description</label> <br>
+        <input type="text" name ="Description"  placeholder="Write" required autofocus> <br>
+
+        <label >Contact Number</label><br>
+        <input type="text" name ="ContactNumber" placeholder="Contact Number" required autofocus> <br>
+     </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" value="submit">Post it</button>
+</form>
+</div>
+<div id="left">
+ <ul id="u1">
+
+  <a href="amend.php" style="color: white;"> Cases </a><br>
+     
+</ul>
+<a href="index.html" style="text-decoration: none;">
+<button>Log out</button> </a>
+</div>
+
+</div>
+
+<div class="footer" >
+  <img id="img2" src="5.png">
+  
+  <div id="list">
+  <ul id="ul2">
+    </ul>
+     <p id="p5">
+     Copyright &copy; 2017 Online LAW System | Designed By Sushma Yadav and Shristi Gupta. All Rights Reserved.
+     </p>
+     </div>
+  
+</div>
+</body>
+</html>

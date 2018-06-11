@@ -1,0 +1,45 @@
+#right{
+	background-color: #E6FFE2;
+}
+h1{
+	padding: 10px;
+	margin-left: 20px; 
+} 
+#h6{
+	padding: 10px;
+	margin-left: 450px; 
+} 
+#p7{
+	margin: 30px;
+	border-style: double; 
+	border-color: black; 
+	border-spacing: 10px 50px;
+	padding: 10px;
+}
+#input1{
+	padding: 10px;
+	margin-left: 280px; 
+	width: 250px;
+	float: center;
+}
+#input2{
+	padding: 10px;
+	margin-left: 40px; 
+	width: 250px;
+	float: center;
+}
+textarea{
+	margin-left: 280px;
+	margin-top: 20px;
+	align-self: center;
+	width: 545px;
+	height: 200px;
+}
+#buttonsubmit{
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 450px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}

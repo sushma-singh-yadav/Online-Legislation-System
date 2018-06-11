@@ -1,0 +1,31 @@
+form{
+  max-width: 500px;
+  padding: 70px 50px;
+  margin: 125px auto 0;
+  background: #f7f7f7;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+h2{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#signs h1{
+  text-align: center;
+}
+#signs input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  object-fit: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8)) )
+}
