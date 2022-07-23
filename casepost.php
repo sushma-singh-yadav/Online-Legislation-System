@@ -4,7 +4,7 @@
 $con= mysqli_connect( "localhost","root","" );
      if (!mysqli_select_db($con,"law"))
      {
-      echo 'Databse not selected';
+      echo 'Database not selected...';
      }
 
    $citizen_name= $_POST['citizenname'];
